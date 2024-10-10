@@ -18,7 +18,7 @@
 
 .markdown-body .anchor {
   float: left;
-  line-height: 1;
+  line-height: 2;
   margin-left: -20px;
   padding-right: 4px;
 }
@@ -60,7 +60,7 @@
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   color: #24292e;
-  line-height: 1.5;
+  line-height: 2;
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
   font-size: 16px;
   line-height: 1.5;
@@ -1285,11 +1285,26 @@ pre[class*="language-"] {
     color: #2E4D4D;            /* 悬停时颜色为暗绿色 */
 }
 
-        .content {
+.content {
 	    margin-left: 250px; /* 与侧边栏宽度+间距相匹配 */
             padding: 0 50px;
         }
-    </style>
+.content {
+            line-height: 32px !important; /* 设置段落的行间距 */
+}
+.content a {
+    text-decoration: none;     /* 去掉下划线 */
+    color: #003366;               /* 链接文字颜色 */
+}
+
+.content a:hover {
+    color: #2E4D4D;            /* 悬停时颜色为暗绿色 */
+}
+.content ul.no-margin {
+            padding-left: 0; /* 移除左侧填充 */
+}
+</style>
+
 </head>
 <body>
  <div class="sidebar">
@@ -1305,9 +1320,26 @@ pre[class*="language-"] {
 
     <div class="content">
         <h1>Home</h1>
-	<p>Last Update: September 1st, 2024</p>
+	<p>Last Update: October 9th, 2024</p>
 	<hr>
-	<h2>Why Japan?</h2>
+<ul class="no-margin">
+    <li><strong><a href="#why">Why Japan? 日本留学有什么好处?</a></strong></li>
+    <li><strong><a href="#drawback">日本留学有什么缺点? (相比美国以及国内)</a></strong></li>
+    <li><strong><a href="#ways">日本留学有哪些途径?</a></strong></li>
+	<ul>
+		<li><a href="#test">修士考试</a></li>
+		<li><a href="#sgu">SGU项目</a></li>
+	</ul>
+    <li><strong><a href="#bar">日本留学对申请人的要求?</a></strong></li>
+    <li><strong><a href="#schools">日本有哪些适合科大同学申请的学校?</a></strong></li>
+</ul>
+	<h1><div id="why">Why Japan? 日本留学有什么好处?</div></h1>
+	    <h2><div id="test">修士考试</div></h2>
+	    <h2><div id="sgu">SGU项目</div></h2>
+	<h1><div id="drawback">日本留学有什么缺点? (相比美国以及国内)</div></h1>
+	<h1><div id="ways">赴日留学有哪些途径?</div></h1>
+	<h1><div id="bar">日本留学对申请人的要求?</div></h1>
+	<h1><div id="schools">日本有哪些适合科大同学申请的学校?</div></h1>
     </div>
 </article>
 </body>
